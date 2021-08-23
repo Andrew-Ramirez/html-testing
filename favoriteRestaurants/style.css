@@ -1,0 +1,63 @@
+.header{
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Lato', 'sans serif';
+}
+.header input[type=text] {
+    padding: 3px;
+    margin: 8px 0;
+    float: center;
+}
+
+.header a{
+    display: block;
+    float: left;
+    padding: 10px 8px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.header button {
+    background-image: url('https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png');
+    float: center;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    margin: 8px 0;
+    background-color: red;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -2px
+}
+
+.header p{
+    display: block;
+    float: right;
+    padding: 10px 8px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    margin-top: -2px;
+}
+
+.header p img{
+    float: right;
+    padding: 3px;
+    width: 25px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(1);
+}
+
+body ol{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header a:hover{
+    background-color: rgb(116, 116, 116);
+    /* color: black */
+}
