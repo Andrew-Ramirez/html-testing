@@ -1,0 +1,214 @@
+* {
+    font-family: 'Poppins';
+  } /* .jumbotron::before { content: ""; width: 100%;
+  height: 100%; position: absolute; top: 0; left: 0; background: rgba(51, 50, 61,
+  0.5); } */
+  .jumbotron {
+    background-image: url('https://f.hubspotusercontent40.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=2880&name=new%20website%20hero%20background%20image%20%281%29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: white !important;
+    padding: 20%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .jumbotron::after {
+    box-sizing: border-box;
+  }
+  .top-caption {
+    text-align: center;
+    font-size: 26px;
+  }
+  .top-caption p {
+    font-family: Poppins;
+    color: #87909e;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .col-sm {
+    padding-top: 100px;
+    font-weight: 300;
+  }
+  .col-sm p {
+    color: #87909e;
+    font-weight: 300;
+  }
+  h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.75rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+    text-align: center;
+  }
+  body nav div {
+    text-align: left;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #87909e;
+  }
+  .testimonial-title {
+    text-align: center;
+    margin-bottom: 2.8rem;
+    margin-top: 5rem;
+  }
+  .testimonial-title h2 {
+    font-weight: 600;
+    color: #30343b;
+  }
+  .testimonial .row {
+    justify-content: space-around;
+    margin-bottom: 10rem;
+  }
+  .testimonial .col-md-4 {
+    display: flex;
+    justify-content: center; /* padding-left: 45px; */ /*
+  padding-right: 45px; */
+  }
+  .testimonial .card {
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    border: solid 1px;
+    border-color: #e5e7ea; /* height: 100%;
+  */
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 6px 0px;
+    padding: 0 1.7rem 2rem 1.7rem;
+    margin-top: 68px;
+  }
+  .testimonial .card-img-top {
+    background-image: url('https://www.techtalentsouth.com/hubfs/jespey.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    margin-top: -48px; /* margin-left: 35px; */
+    border: 2px solid #0054fe;
+  }
+  .card-bio h6 {
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+  .card-quote p {
+    margin-top: 1.5rem;
+  }
+  .card-title h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #30343b;
+  }
+  .card-bio h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  .about-tts {
+    padding-left: 9rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+  }
+  .about-tts h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #30343b;
+    margin-bottom: 2.5rem;
+  }
+  .about-tts h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #30343b;
+    margin-bottom: 1.5rem;
+  }
+  .preview-talent {
+    background-color: #007bff;
+  }
+  .make-it-primary {
+    height: 3rem;
+    background-color: #0054fe;
+  }
+  .ready-hire {
+    background-color: #0054fe;
+    padding-left: 6rem;
+  }
+  .preview-btn {
+    background-color: #0054fe;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6rem;
+  }
+  .preview-btn button {
+    padding: 0.5rem;
+    background-color: #0054fe;
+  }
+  .footer-nav {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 3rem;
+  }
+  .row.bottom-nav {
+    padding-bottom: 3.125rem;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2rem;
+  }
+  .social ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 54%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social li {
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: center;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .footer-menu a {
+    font-weight: bold;
+    line-height: 2;
+    color: #000;
+  }
+  .footer-menu li {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .footer-menu li:first-child {
+    padding-left: 0;
+  }
+  ul .fm-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .fm-list li a {
+    font-weight: normal;
+    color: #87909e;
+  }
+  .fm-list li {
+    padding-left: 0;
+    font-size: 0.85rem;
+    line-height: 2.5;
+  }
+  .copyright-info a {
+    color: #007bff;
+  }
